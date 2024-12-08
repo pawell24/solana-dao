@@ -50,8 +50,8 @@ Before you begin, ensure the following dependencies are installed on your machin
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/pawell24/solana-dao.git
+cd solana-dao
 ```
 
 ### 2. Install Dependencies
