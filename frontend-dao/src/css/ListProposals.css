@@ -1,0 +1,102 @@
+.proposals-list {
+  padding: 20px;
+  background-color: #f8fafc;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.proposals-list h2 {
+  margin-bottom: 20px;
+  font-size: 26px;
+  color: #2c3e50;
+  text-align: center;
+}
+
+.proposals-list ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.proposal-item {
+  padding: 20px;
+  margin-bottom: 20px;
+  background: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.proposal-item:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.proposal-item h3 {
+  margin: 0 0 12px;
+  font-size: 22px;
+  color: #34495e;
+}
+
+.proposal-item p {
+  margin: 8px 0;
+  color: #7f8c8d;
+  font-size: 14px;
+}
+
+.proposals-list button {
+  background-color: #3498db;
+  color: white;
+  font-size: 14px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.proposals-list button:hover {
+  background-color: #2980b9;
+  transform: translateY(-2px);
+}
+
+.proposals-list button:disabled {
+  background-color: #bdc3c7;
+  cursor: not-allowed;
+}
+
+.proposals-list button:active {
+  background-color: #1f618d;
+}
+
+.vote-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.vote-options button {
+  flex: 1 1 calc(50% - 10px);
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .vote-options button {
+    flex: 1 1 100%;
+  }
+}
+
+.tally-button {
+  background-color: #2ecc71;
+}
+
+.tally-button:hover {
+  background-color: #27ae60;
+}
+
+.tally-button:disabled {
+  background-color: #bdc3c7;
+}
